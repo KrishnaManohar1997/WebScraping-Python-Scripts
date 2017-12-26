@@ -15,12 +15,3 @@ content =  soup.find_all('div',class_="td-post-content td-pb-padding-side")
 for con in content:
 	print con.text.encode('ascii','ignore')
 	print con.next_sibling
-# #print soup
-# AllLinks =[]
-# ArticleLinks =  soup.find_all("a",rel="bookmark")
-# for l in ArticleLinks:
-	# AllLinks.append(l.attrs['href']+'*'+l.attrs['title'].encode('ascii', 'ignore'))
-# #print len(AllLinks),len(set(AllLinks))
-# CleanLinks =list(set(AllLinks))
-# for li in CleanLinks:
-	# print li
