@@ -38,10 +38,3 @@ mov=0
 while mov < len(Movies):
 	print Movies[mov]+str("\t Rating ")+Ratings[mov]+str("\t Year  ")+Years[mov]
 	mov=mov+1
-#k = soup.find_all("span")
-# for year in k:
-	# try:
-		# if(year.attrs['class']=="lister-item-year text-muted unbold"):
-			# print year
-	# except:
-		# continue
